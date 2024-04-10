@@ -1,0 +1,17 @@
+/* Estilos personalizados */
+
+/* Ajuste de margen superior para la barra de navegación */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Ajuste de margen inferior para el contenedor de productos */
+  .container {
+    margin-bottom: 50px;
+  }
+  
+  /* Estilo de fuente para el pie de página */
+  footer {
+    font-size: 14px;
+  }
+  
