@@ -14,4 +14,58 @@
   footer {
     font-size: 14px;
   }
-  
+  .ContGen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del 100% del viewport */
+}
+
+.login-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form input, .login-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+/* Estilos para la imagen */
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra alrededor de la imagen */
+}
+.product-description {
+  text-align: justify; /* Justifica el texto */
+}
+/* Estilos personalizados */
+body {
+  padding-bottom: 70px; /* Ajusta este valor para dar espacio al footer */
+}
+
+.content {
+  min-height: calc(100vh - 70px); /* Calcula la altura mínima de la sección de contenido */
+}
