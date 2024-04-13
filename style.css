@@ -69,3 +69,12 @@ body {
 .content {
   min-height: calc(100vh - 70px); /* Calcula la altura mínima de la sección de contenido */
 }
+.carousel {
+  margin: 50px auto;
+  max-width: 800px; /* Tamaño del carrusel */
+}
+.carousel-item img {
+  width: 100%; /* Ajustar el ancho de la imagen */
+  height: 400px; /* Tamaño cuadrado para la imagen */
+  object-fit: cover; /* Mantener la relación de aspecto */
+}

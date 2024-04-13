@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Venec Motos</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="bienvenida.html">Venec Motos 🏍️🏁</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="bienvenida.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="indexjp.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="text-center mb-4" style="font-family: 'Roboto', sans-serif;">Contáctanos</h1>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+      </form>
+      <div id="mensaje-exito" class="mt-3" style="display: none;">
+        <div class="alert alert-success" role="alert">
+          Tu mensaje ha sido enviado a uno de nuestros administradores.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+      <h4 class="text-center mb-3">Información de Contacto</h4>
+      <ul class="list-unstyled">
+        <li><strong>Teléfono:</strong> +56 9 9930 7079</li>
+        <li><strong>Instagram:</strong> @venecmotos</li>
+        <li><strong>Correo Electrónico:</strong> info@venecmotos.com</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-white text-center py-3 fixed-bottom">
+    <div class="container">
+      <p>&copy; 2024 Venec Motos | Venta de Motos | Síguenos en <a href="https://www.instagram.com/perez_1145/?igsh=NzJtZDc2Mjd0NnV4" target="_blank">Instagram</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
